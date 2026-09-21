@@ -1,5 +1,7 @@
 import socketio
 
+# Code taken and adjusted from "Mastering Python for Networking and Security"
+
 # Initiate client
 sio = socketio.Client()
 

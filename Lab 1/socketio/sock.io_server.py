@@ -1,6 +1,8 @@
 from aiohttp import web
 import socketio
 
+# Code taken and adjusted from "Mastering Python for Networking and Security"
+
 # Create async server
 socket_io = socketio.AsyncServer()
 

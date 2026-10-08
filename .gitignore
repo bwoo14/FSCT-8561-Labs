@@ -1,6 +1,4 @@
 venv/
 *.docx
-Lab 0/staging
-Lab 1/staging
-Lab 2/staging
-Lab 3/staging
+Lab */staging/
+Lab 4/botnet-capture-20110812-rbot.pcap

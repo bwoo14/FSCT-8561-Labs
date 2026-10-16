@@ -57,7 +57,7 @@ def send_request(type, url, parameters=None, data=None):
 		
 # Function to handle to csv
 def to_csv(records):
-	with open("records.csv", "w", newline="", encoding="utf-8") as file:
+	with open("http_scan_results.csv", "w", newline="", encoding="utf-8") as file:
 		writer = csv.DictWriter(file, fieldnames=["endpoint", 
 		                                          "status_code",
 												  "http_method",
@@ -67,7 +67,7 @@ def to_csv(records):
 												  "server_header"])
 		writer.writeheader()
 		writer.writerows(records)
-	print("Saved records.csv")
+	print("Saved to http_scan_results.csv")
 		
 records = []
 # Testing GET / 

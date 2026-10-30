@@ -1,0 +1,7 @@
+filename,format,metadata_fields,suspected_field,encoding,risk_score,reason
+Activation.png,PNG,"Model, exif, ExifOffset, YResolution, srgb, ResolutionUnit, gamma, YCbCrPositioning, Make, Software, GPSInfo, dpi, XResolution, create-date, DateTime",Model,Hex,5,Encode detected
+Brain-Channel.png,PNG,"exif, YResolution, ImageDescription, srgb, ResolutionUnit, gamma, YCbCrPositioning, dpi, XResolution",ImageDescription,,10,Suspicious words in value detected
+Brain.png,PNG,"Software, srgb, gamma, dpi",Software,,10,Suspicious words in value detected
+Chemicals.png,PNG,ImageDescription,ImageDescription,,10,Suspicious words in value detected
+Dopamine.png,PNG,"srgb, gamma, XML:com.adobe.xmp, dpi, xmp",XML:com.adobe.xmp,,10,Suspicious words in value detected
+Music.png,PNG,"Model, exif, ExifOffset, YResolution, srgb, ResolutionUnit, gamma, YCbCrPositioning, Make, Copyright, dpi, XResolution, create-date, DateTime",Copyright,Base64 (possible),5,Encode detected
